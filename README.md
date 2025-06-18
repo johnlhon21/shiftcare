@@ -105,10 +105,11 @@ Includes test coverage for:
 
 ---
 
-## Limitations & Improvements
+## Known Limitations & Improvements
 
 * Datasets are loaded every time the command is run
-* Define a driver in the loader to support different sources of datasets, not just from a JSON file. (ex. third-party api, database)
+* Loads full JSON file into memory.
+* Caching of Datasets as an improvement.
 
 ---
 
