@@ -18,7 +18,7 @@ A command-line Ruby application to work with client data in JSON format. This to
 * **Search by Email**
   Search is case-insensitive and supports partial matches.
 * **Custom JSON path input**
-  Can provide a different JSON file as datasets
+  Can provide a different JSON file as a dataset
 
 ---
 
@@ -104,7 +104,7 @@ Includes test coverage for:
 
 * The dataset is a JSON array of objects, each with at least `id`,`full_name` and `email`.
 * If the file is not provided, the application scans the default JSON file `data/clients.json` as the default dataset.
-* The `search --query="john"` only targets the `full_name` field by default.
+* The `search --query="john"` only targets the `full_name` column by default.
 * You can pass `--column` argument to dynamically define the column to search from the dataset.
 
 ---
@@ -137,7 +137,7 @@ If given more time, the following could be added:
 ## Author
 
 **Marlon Bagayawa**
-GitHub: [marlon-paymongo](https://github.com/johnlhon21)
+GitHub: [marlon-bagayawa](https://github.com/johnlhon21)
 
 ---
 
