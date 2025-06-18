@@ -104,7 +104,7 @@ Includes test coverage for:
 
 * The dataset is a JSON array of objects, each with at least `id`,`full_name` and `email`.
 * If the file is not provided, the application scans the default JSON file `data/clients.json` as the default dataset.
-* Search only targets the `full_name` field by default.
+* The `search --query="john"` only targets the `full_name` field by default.
 * You can pass `--column` argument to dynamically define the column to search from the dataset.
 
 ---
