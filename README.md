@@ -25,7 +25,7 @@ A command-line Ruby application to work with client data in JSON format. This to
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shiftcare.git
+git clone https://github.com/johnlhon21/shiftcare.git
 
 cd shiftcare
 ```
