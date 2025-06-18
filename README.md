@@ -10,15 +10,16 @@ A command-line Ruby application to work with client data in JSON format. This to
 ## Features
 
 * **Search by Name**
-  Search is case-insensitive and supports partial matches.
+  - Search is case-insensitive and supports partial matches.
 * **Detect Duplicate Emails**
-  Finds clients sharing the same email address.
+  - Finds clients sharing the same email address.
   
 ## Additional Features  
+```Added the following improvements to demonstrate extensibility```
 * **Search by Email**
-  Search is case-insensitive and supports partial matches.
+  - Search is case-insensitive and supports partial matches.
 * **Custom JSON path input**
-  Can provide a different JSON file as a dataset
+  - Can provide a different JSON file as a dataset
 
 ---
 
