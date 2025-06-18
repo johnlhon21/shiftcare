@@ -60,6 +60,14 @@ bin/client help
 bin/client search --query "john"
 ```
 
+### Find duplicate emails
+
+```bash
+bin/client duplicates
+```
+
+### Optional arguments
+
 ### Search by dynamic column ex. ```email```
 
 ```bash
@@ -70,12 +78,6 @@ bin/client search --query "john" --column "email"
 
 ```bash
 bin/client search --query "john" --file "path/to/json_file"
-```
-
-### Find duplicate emails
-
-```bash
-bin/client duplicates
 ```
 
 ---
