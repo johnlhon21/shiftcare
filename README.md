@@ -83,7 +83,7 @@ bin/client duplicates
 ```bash
 bundle exec rspec
 ```
-# To show the test case scenarios
+### To show the test case scenarios
 ```
 bundle exec rspec -f d
 ```
